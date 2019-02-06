@@ -33,7 +33,7 @@ repo:
 * [HOC] → HOUSE CLEANING: Changes that make the repository more clean (wiping,
   cleaning, mopping)
 
-* [IGN] → IGNORE: When adding a .gitignore file
+* [IGN] → IGNORE: When adding a .gitignore file or similar
 
 * [OTH] → OTHER: Other changes that don't modify src or test files
 
