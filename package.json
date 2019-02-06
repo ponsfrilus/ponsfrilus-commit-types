@@ -11,7 +11,7 @@
     "commitizen"
   ],
   "author": "Nicolas Borboën <ponsfrilus@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ponsfrilus/ponsfrilus-commit-types.git"
