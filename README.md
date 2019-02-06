@@ -5,7 +5,7 @@
 Status:
 [![npm version](https://img.shields.io/npm/v/ponsfrilus-commit-types.svg?style=flat-square)](https://www.npmjs.org/package/ponsfrilus-commit-types)
 [![npm downloads](https://img.shields.io/npm/dm/ponsfrilus-commit-types.svg?style=flat-square)](http://npm-stat.com/charts.html?package=ponsfrilus-commit-types&from=2019-01-01)
-[![Build Status](https://img.shields.io/travis/commitizen/ponsfrilus-commit-types.svg?style=flat-square)](https://travis-ci.org/commitizen/ponsfrilus-commit-types)
+[![Build Status](https://img.shields.io/travis/ponsfrilus/ponsfrilus-commit-types.svg?style=flat-square)](https://travis-ci.org/ponsfrilus/ponsfrilus-commit-types)
 
 
 ## Spec
