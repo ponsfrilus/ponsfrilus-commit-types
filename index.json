@@ -1,74 +1,74 @@
 {
   "types": {
-    "[ADD] ": {
+    "[ADD]": {
       "title": "ADD",
       "description": "When the project welcome new files"
     },
-    "[BLD] ": {
+    "[BLD]": {
       "title": "BUILD",
       "description": "Changes that affect the build system or external dependencies"
     },
-    "[BTF] ": {
+    "[BTF]": {
       "title": "BEAUTIFULLAGE",
       "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
     },
-    "[C.I] ": {
+    "[C.I]": {
       "title": "CONTINUOUS INTEGRATION",
       "description": "Changes to the CI configuration files and scripts"
     },
-    "[DOC] ": {
+    "[DOC]": {
       "title": "DOCUMENTATION",
       "description": "Documentation only changes"
     },
-    "[FIX] ": {
+    "[FIX]": {
       "title": "FIXE",
       "description": "A bug fix"
     },
-    "[FT.] ": {
+    "[FT.]": {
       "title": "FEATURE",
       "description": "A new feature"
     },
-    "[HOC] ": {
+    "[HOC]": {
       "title": "HOUSE CLEANING",
       "description": "Changes that make the repository more clean (wiping, cleaning, mopping)"
     },
-    "[IGN] ": {
+    "[IGN]": {
       "title": "IGNORE",
       "description": "When adding a .gitignore file or similar"
     },
-    "[OTH] ": {
+    "[OTH]": {
       "title": "OTHER",
       "description": "Other changes that don't modify src or test files"
     },
-    "[PRF] ": {
+    "[PRF]": {
       "title": "PERFORMANCE",
       "description": "A code change that improves performance"
     },
-    "[RFA] ": {
+    "[RFA]": {
       "title": "REFACTOR",
       "description": "A code change that neither fixes a bug nor adds a feature"
     },
-    "[RVT] ": {
+    "[RVT]": {
       "title": "REVERT",
       "description": "Reverts a previous commit"
     },
-    "[STY] ": {
+    "[STY]": {
       "title": "STYLE",
       "description": "Changes that mainly change the style, look and feel or visual appearance"
     },
-    "[TST] ": {
+    "[TST]": {
       "title": "TEST",
       "description": "Adding missing tests or correcting existing tests"
     },
-    "[TYP] ": {
+    "[TYP]": {
       "title": "TYPO",
       "description": "An error (as of spelling) in typed or typeset material"
     },
-    "[VER] ": {
+    "[VER]": {
       "title": "VERSION",
       "description": "Bump version"
     },
-    "[WIP] ": {
+    "[WIP]": {
       "title": "WORK IN PROGRESS",
       "description": "Work in progress, e.g. in case of fire"
     }
