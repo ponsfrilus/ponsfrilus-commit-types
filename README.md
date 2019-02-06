@@ -1,22 +1,61 @@
-# conventional-commit-types
+# ponsfrilus-commit-types
 
-[![npm](https://img.shields.io/npm/v/conventional-commit-types.svg?maxAge=2592000)](https://www.npmjs.com/package/conventional-commit-types)
-[![Build Status](https://img.shields.io/travis/commitizen/conventional-commit-types.svg?maxAge=2592000)](https://travis-ci.org/commitizen/conventional-commit-types)
-
-List of conventional commit types.
+*This is a fork from [conventional-commit-types](https://github.com/commitizen/conventional-commit-types).*
 
 ## Spec
 
-Exports an object with a `types` key whose value is an object whose keys are type names and whose values are objects with key-value pairs such as `description` as string, optional `title` as string, etc. See [index.json](index.json). Any alternatives should follow the same spec.
+Exports an object with a `types` key whose value is an object whose keys are
+type names and whose values are objects with key-value pairs such as
+`description` as string, optional `title` as string, etc. See
+[index.json](index.json). Any alternatives should follow the same spec.
 
-## Etc.
+## Prefixes
 
-Used by [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog) for [commitizen/cz-cli](https://github.com/commitizen/cz-cli).
+I do like **bracketed 3 letters capitalized** prefixes. A good part of them are
+adapted from the original
+[conventional-commit-types](https://github.com/commitizen/conventional-commit-types/blob/master/index.json) repo:
 
-Can be used with [kentcdodds/validate-commit-msg](https://github.com/kentcdodds/validate-commit-msg#types).
+```
+* [ADD] → ADD: When the project welcome new files
 
-Commit types originally from:
-* [Angular Git Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type)
-* [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
+* [BLD] → BUILD: Changes that affect the build system or external dependencies
+  (example scopes: gulp, broccoli, npm)
 
-Created for [AndersDJohnson/conventional-commit-types-cli](https://github.com/AndersDJohnson/conventional-commit-types-cli).
+* [BTF] → BEAUTIFULLAGE: (aka style) Changes that do not affect the meaning of
+  the code (white-space, formatting, missing semi-colons, etc)
+
+* [C.I] → CONTINUOUS INTEGRATION: Changes to the CI configuration files and
+  scripts
+
+* [DOC] → DOCUMENTATION: Documentation only changes
+
+* [FIX] → FIXE: A bug fix
+
+* [FT.] → FEATURE: A new feature
+
+* [HOC] → HOUSE CLEANING: Changes that make the repository more clean (wiping,
+  cleaning, mopping)
+
+* [IGN] → IGNORE: When adding a .gitignore file or similar
+
+* [OTH] → OTHER: Other changes that don't modify src or test files
+
+* [PRF] → PERFORMANCE: A code change that improves performance
+
+* [RFA] → REFACTOR: A code change that neither fixes a bug nor adds a feature
+
+* [RVT] → REVERT: Reverts a previous commit
+
+* [STY] → STYLE: Changes that mainly change the style, look and feel or visual
+  appearance
+
+* [TST] → TEST: Adding missing tests or correcting existing tests
+
+* [TYP] → TYPO: An error (as of spelling) in typed or typeset material
+
+* [VER] → VERSION: Bump version
+
+* [WIP] → WORK IN PROGRESS: e.g. in case of fire
+```
+
+Please note they are sorted by prefixes in alphabetical order.

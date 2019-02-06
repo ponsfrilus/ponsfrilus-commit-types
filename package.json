@@ -1,19 +1,22 @@
 {
-  "name": "conventional-commit-types",
-  "version": "2.2.0",
-  "description": "List of conventional commit types.",
+  "name": "ponsfrilus-commit-types",
+  "version": "0.0.1",
+  "description": "List of ponsfrilus commit types.",
   "main": "index.json",
   "scripts": {
     "test": "json -f index.json"
   },
-  "keywords": [],
-  "author": "Anders D. Johnson (https://andrz.me/)",
+  "keywords": [
+    "conventional-commits",
+    "commitizen"
+  ],
+  "author": "Nicolas Borboën <ponsfrilus@gmail.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/conventional-commit-types.git"
+    "url": "https://github.com/ponsfrilus/conventional-commit-types.git"
   },
   "devDependencies": {
-    "json": "^9.0.4"
+    "json": "^9.0.6"
   }
 }
