@@ -2,6 +2,12 @@
 
 *This is a fork from [conventional-commit-types](https://github.com/commitizen/conventional-commit-types).*
 
+Status:
+[![npm version](https://img.shields.io/npm/v/ponsfrilus-commit-types.svg?style=flat-square)](https://www.npmjs.org/package/ponsfrilus-commit-types)
+[![npm downloads](https://img.shields.io/npm/dm/ponsfrilus-commit-types.svg?style=flat-square)](http://npm-stat.com/charts.html?package=ponsfrilus-commit-types&from=2019-01-01)
+[![Build Status](https://img.shields.io/travis/commitizen/ponsfrilus-commit-types.svg?style=flat-square)](https://travis-ci.org/commitizen/ponsfrilus-commit-types)
+
+
 ## Spec
 
 Exports an object with a `types` key whose value is an object whose keys are
@@ -59,3 +65,17 @@ adapted from the original
 ```
 
 Please note they are sorted by prefixes in alphabetical order.
+
+## Infos
+
+* [cz-ponsfrilus-changelog](https://github.com/ponsfrilus/cz-ponsfrilus-changelog)
+* [ponsfrilus-commit-types](https://github.com/ponsfrilus/ponsfrilus-commit-types)
+
+## ToDo
+
+* Travis
+* Changelog
+  * https://github.com/conventional-changelog/conventional-changelog
+* Better semantic-release / standard-version
+  * https://github.com/conventional-changelog/standard-version
+  * https://github.com/semantic-release/semantic-release
