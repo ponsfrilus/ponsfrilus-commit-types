@@ -1,4 +1,7 @@
 {
+  "settings": {
+    "separator" : "→"
+  },
   "types": {
     "[ADD]": {
       "title": "ADD",
