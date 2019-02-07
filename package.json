@@ -1,6 +1,6 @@
 {
   "name": "ponsfrilus-commit-types",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "List of ponsfrilus commit types.",
   "main": "index.json",
   "scripts": {

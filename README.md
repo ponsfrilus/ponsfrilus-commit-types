@@ -21,48 +21,48 @@ I do like **bracketed 3 letters capitalized** prefixes. A good part of them are
 adapted from the original
 [conventional-commit-types](https://github.com/commitizen/conventional-commit-types/blob/master/index.json) repo:
 
-```
-* [ADD] → ADD: When the project welcome new files
 
-* [BLD] → BUILD: Changes that affect the build system or external dependencies
+* `[ADD] → ADD`: When the project welcome new files
+
+* `[BLD] → BUILD`: Changes that affect the build system or external dependencies
   (example scopes: gulp, broccoli, npm)
 
-* [BTF] → BEAUTIFULLAGE: (aka style) Changes that do not affect the meaning of
+* `[BTF] → BEAUTIFULLAGE`: (aka style) Changes that do not affect the meaning of
   the code (white-space, formatting, missing semi-colons, etc)
 
-* [C.I] → CONTINUOUS INTEGRATION: Changes to the CI configuration files and
+* `[C.I] → CONTINUOUS INTEGRATION`: Changes to the CI configuration files and
   scripts
 
-* [DOC] → DOCUMENTATION: Documentation only changes
+* `[DOC] → DOCUMENTATION`: Documentation only changes
 
-* [FIX] → FIXE: A bug fix
+* `[FIX] → FIXE`: A bug fix
 
-* [FT.] → FEATURE: A new feature
+* `[FT.] → FEATURE`: A new feature
 
-* [HOC] → HOUSE CLEANING: Changes that make the repository more clean (wiping,
+* `[HOC] → HOUSE CLEANING`: Changes that make the repository more clean (wiping,
   cleaning, mopping)
 
-* [IGN] → IGNORE: When adding a .gitignore file or similar
+* `[IGN] → IGNORE`: When adding a .gitignore file or similar
 
-* [OTH] → OTHER: Other changes that don't modify src or test files
+* `[OTH] → OTHER`: Other changes that don't modify src or test files
 
-* [PRF] → PERFORMANCE: A code change that improves performance
+* `[PRF] → PERFORMANCE`: A code change that improves performance
 
-* [RFA] → REFACTOR: A code change that neither fixes a bug nor adds a feature
+* `[RFA] → REFACTOR`: A code change that neither fixes a bug nor adds a feature
 
-* [RVT] → REVERT: Reverts a previous commit
+* `[RVT] → REVERT`: Reverts a previous commit
 
-* [STY] → STYLE: Changes that mainly change the style, look and feel or visual
+* `[STY] → STYLE`: Changes that mainly change the style, look and feel or visual
   appearance
 
-* [TST] → TEST: Adding missing tests or correcting existing tests
+* `[TST] → TEST`: Adding missing tests or correcting existing tests
 
-* [TYP] → TYPO: An error (as of spelling) in typed or typeset material
+* `[TYP] → TYPO`: An error (as of spelling) in typed or typeset material
 
-* [VER] → VERSION: Bump version
+* `[VER] → VERSION`: Bump version
 
-* [WIP] → WORK IN PROGRESS: e.g. in case of fire
-```
+* `[WIP] → WORK IN PROGRESS`: e.g. in case of fire
+
 
 Please note they are sorted by prefixes in alphabetical order.
 
