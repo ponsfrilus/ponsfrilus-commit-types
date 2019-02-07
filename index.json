@@ -56,6 +56,10 @@
       "title": "STYLE",
       "description": "Changes that mainly change the style, look and feel or visual appearance"
     },
+    "[TAG]": {
+      "title": "TAG",
+      "description": "When adding a tag reference"
+    },
     "[TST]": {
       "title": "TEST",
       "description": "Adding missing tests or correcting existing tests"
