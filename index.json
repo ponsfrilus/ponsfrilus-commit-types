@@ -21,7 +21,7 @@
       "description": "Documentation only changes"
     },
     "[FIX]": {
-      "title": "FIXE",
+      "title": "FIX",
       "description": "A bug fix"
     },
     "[FT.]": {
@@ -67,6 +67,10 @@
     "[TYP]": {
       "title": "TYPO",
       "description": "An error (as of spelling) in typed or typeset material"
+    },
+    "[T9N]": {
+      "title": "TRANSLATION",
+      "description": "Anything related to Translation (T9N), Localization (L10N) or Internationalization (I18N)"
     },
     "[VER]": {
       "title": "VERSION",
