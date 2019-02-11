@@ -52,6 +52,29 @@ Please note they are sorted by prefixes in alphabetical order.
 * [cz-ponsfrilus-changelog](https://github.com/ponsfrilus/cz-ponsfrilus-changelog)
 * [ponsfrilus-commit-types](https://github.com/ponsfrilus/ponsfrilus-commit-types)
 
+
+## Installation
+
+You will need [commitizen](https://www.npmjs.com/package/commitizen) and [cz-ponsfrilus-changelog](https://www.npmjs.com/package/cz-ponsfrilus-changelog), which will install [ponsfrilus-commit-types](https://www.npmjs.com/package/ponsfrilus-commit-types) as a dependency:  
+```
+commitizen
+cz-ponsfrilus-changelog
+└── ponsfrilus-commit-types
+```
+
+Run the following command to install them:  
+`npm i -g commitizen cz-ponsfrilus-changelog`
+
+Then, if you want to set the "ponsfrilus-commit-types" as default, you will have to create the [.czrc](https://github.com/commitizen/cz-cli#conventional-commit-messages-as-a-global-utility) file:
+```
+$ cat ~/.czrc
+{ "path": "cz-ponsfrilus-changelog" }
+``` 
+
+You can run the following command to create it:  
+`echo '{ "path": "cz-ponsfrilus-changelog" }' > ~/.czrc`
+
+
 ## ToDo
 
 * Travis (and learn how to deploy to npmjs when ready)

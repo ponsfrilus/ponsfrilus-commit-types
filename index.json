@@ -1,6 +1,6 @@
 {
   "settings": {
-    "separator" : "→"
+    "separator" : ":"
   },
   "types": {
     "[ADD]": {
